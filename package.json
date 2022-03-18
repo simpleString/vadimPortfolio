@@ -5,7 +5,7 @@
     "version": "0.0.0",
     "scripts": {
         "dev": "vite",
-        "predeploy": "tsc && vite build",
+        "predeploy": "yarn build --outDir build",
         "deploy": "gh-pages -d build",
         "build": "tsc && vite build",
         "preview": "vite preview"
